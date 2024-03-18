@@ -1,0 +1,296 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1440px;
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.navbar i{
+  font-size: 23px;
+}
+
+.head {
+  background-image: url(https://demo.kaliumtheme.com/architecture/wp-content/uploads/2018/05/slider-image-first.jpg);
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+.head h1 {
+  display: flex;
+  justify-content: center;
+  opacity: 0; 
+  animation: fadeIn 5s forwards; 
+  padding: 300px;
+  color: white;
+  font-weight: 50px;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+
+}
+
+.txt1 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.txt1-1 {
+  font-size: 39px;
+  font-weight: 300;
+}
+
+.txt1-2 {
+  width: 555px;
+}
+
+.txt1-2 {
+  display: grid;
+  align-items: center;
+}
+
+.container .txt2 {
+  border-bottom: 1px solid white;
+}
+
+.txt2 {
+  color: white;
+  background-color: rgb(34, 31, 31);
+  border-bottom: 1px solid white;
+}
+
+.txt2-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  border-bottom-width: 5px;
+  border-bottom-color: white;
+  padding: 20px;
+}
+
+.txt2-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  border-bottom-width: 5px;
+  border-bottom-color: white;
+  padding: 20px;
+}
+
+.txt2-3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  border-bottom-width: 5px;
+  border-bottom-color: white;
+  padding: 20px;
+}
+
+.cards{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  grid-gap: 20px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card {
+  display: flex;
+  text-align: left;
+  height: 500x;
+  width: 45%;
+  gap: 20px;
+  padding: 20px;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.logos{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.logo {
+  position: relative;
+  margin: 0 10px;
+}
+
+.logo img {
+  width: 160px;
+  height: auto;
+}
+
+.logo .logo_txt {
+  position: absolute;
+  top: 50%;
+  opacity: 0;
+  transition: opacity 0.3s ease; 
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center; 
+}
+
+.logo:hover img {
+  opacity: 0.3; 
+}
+
+.logo:hover .logo_txt {
+  opacity: 1; 
+}
+
+.cards{
+  background-color: rgb(128, 128, 128);
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.cardsss{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+.cart_txt{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+.cart_txt h2{
+  grid-row: 1;
+  grid-column: 1;
+}
+.cart_txt p{
+  grid-row: 1;
+  grid-column: 2;
+}
+.card {
+  display: flex;
+  width: 90%;
+  grid-template-rows: auto; 
+  grid-template-columns: 200px 1fr;
+}
+
+.card1, .card2, .card3, .card4{
+  display: contents; 
+}
+
+.btn button{
+  
+  background-color: black;
+  color: white;
+  width: 140px;
+  height: 40px;
+  border-radius: 20px;
+  margin-bottom: 50px;
+  margin-left: 50px;
+}
+.main{
+  position: fixed;
+  bottom: 0;
+}
+.btn button:hover {
+  background-color: rgb(91, 145, 10);
+}
+
+.footer{
+  height: 50px;
+  color: grey;
+}
+.foot{
+  display: flex;
+  align-self: center;
+  justify-content: space-between;
+  
+}
+.foot li {
+  display: inline;
+}
+.f-left .p1 {
+  color:grey; 
+  position: relative;
+}
+
+.f-left .p1::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: yellow;
+  transition: width 0.3s ease;
+}
+
+.f-left .p1:hover::after {
+  color: yellowgreen;
+  width: 100%;
+}
+
+.f-right{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  color: grey;
+  
+}
+ul li a {
+  position: relative;
+  text-decoration: none;
+  color: #333;
+}
+
+ul li a::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #333;
+  transform: scaleX(0);
+  animation: lineAppear 0.3s ease; 
+}
+@keyframes lineAppear {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
+}
+ul li a:hover::after {
+  transform: scaleX(1);
+}
