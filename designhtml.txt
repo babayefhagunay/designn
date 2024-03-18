@@ -58,6 +58,22 @@
     </div>
 </div>
 
+<div class="buildings">
+    <div class="container">
+        <div class="build1">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4vCUZZtfzcH67IUxaetV2EslDs8FRY9Y7pfJZ4AAGPsMPL5J4i_YUsH0QQ4Fl8zAMe1w&usqp=CAU" alt="">
+            <img class="img2" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrVV49n9Lky9Rk90JxBSwp2VPmWEv6GVnH-Q&usqp=CAU" alt="">
+    </div>
+    <div class="build2">
+        <img src="https://images.pexels.com/photos/1722183/pexels-photo-1722183.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsdILkm3cZoWYns-UF3NZcP3mD1iXvGr9dDA&usqp=CAU" alt="">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXPuBlW8QqPNibBvp7WNd5cBfdsL_kA41rmw&usqp=CAU" alt="">
+    </div>
+
+    </div>
+</div>
+
+
 <div class="txt2">
     <div class="container">
         <div class="txt2-1">
